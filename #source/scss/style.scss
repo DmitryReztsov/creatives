@@ -3,28 +3,28 @@
 // <Подключение шрифта>
 @font-face {
 	font-family: "Gotham";
-	src: url("/fonts/Gotham-Book.woff");
+	src: url("fonts/Gotham-Book.woff");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Gotham";
-	src: url("/fonts/Gotham-Medium.woff");
+	src: url("fonts/Gotham-Medium.woff");
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Gotham";
-	src: url("/fonts/Gotham-Bold.woff");
+	src: url("fonts/Gotham-Bold.woff");
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Myriad Pro";
-	src: url("/fonts/MyriadPro-Regular.woff");
+	src: url("fonts/MyriadPro-Regular.woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -868,7 +868,7 @@ $transcolor: #222222;
 
 .map {
 	&__container {
-		filter: grayscale(100%)
+		filter: grayscale(100%);
 	}
 }
 
